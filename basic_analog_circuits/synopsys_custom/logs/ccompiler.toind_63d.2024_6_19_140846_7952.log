@@ -1,0 +1,57 @@
+[14:08:48.77] /r giWindowId 0
+[14:08:48.77] /r giWindowGeometry 600x300
+[14:08:48.78] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c                Version O-2018.09-SP1-3 for linux64 - Mar 15, 2019
+              /c 
+              /c                     Copyright (c) 2004 - 2019 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 4703541 compiled on Fri Mar 15 03:12:51 2019 for RHEL64 6.6
+              /c Invocation: /home/tools/synopsys/customcompiler/O-2018.09-SP1-3/linux64/platform/bin/custom_compiler
+              /c Execution time: Wed Jun 19 14:08:46 2024
+              /c Host: giants
+              /c Working directory: /home/userdata/k63D/toind_63d/work/synopsys/CustomCompiler_O-2018.09/CustomCompiler_Overview_Lab1/vco
+              /c 
+[14:08:51.62] /r giShowFrameTabs true
+[14:08:51.62] /r giWindowId 1
+[14:08:51.62] /r giWindowGeometry 1040x800
+[14:08:52.07] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+162+59
+[14:08:54.30] /# gi::executeAction dmShowLibraryManager -in [gi::getWindows 1]
+[14:08:54.30] /i dm::showLibraryManager
+[14:08:54.30] /r giWindowId 2
+[14:08:54.30] /r giWindowGeometry 660x600+50+81
+[14:08:54.36] /o oa:0x1f74b920
+[14:08:57.37] /i gi::setCurrentIndex {libs} -index {analogLib} -in [gi::getWindows 2]
+[14:08:57.38] /i gi::setItemSelection {libs} -index {analogLib} -in [gi::getWindows 2]
+[14:08:57.77] /i gi::setCurrentIndex {libs} -index {basic} -in [gi::getWindows 2]
+[14:08:57.78] /i gi::setItemSelection {libs} -index {basic} -in [gi::getWindows 2]
+[14:08:58.13] /i gi::setCurrentIndex {libs} -index {sample} -in [gi::getWindows 2]
+[14:08:58.13] /i gi::setItemSelection {libs} -index {sample} -in [gi::getWindows 2]
+[14:08:58.22] /i gi::setItemSelection {libs} -index {{sample} - {sheets}} -in [gi::getWindows 2]
+[14:08:58.22] /i gi::setCurrentIndex {libs} -index {sheets} -in [gi::getWindows 2]
+[14:08:58.43] /i gi::setCurrentIndex {libs} -index {snpsDefTechLib} -in [gi::getWindows 2]
+[14:08:58.43] /i gi::setItemSelection {libs} -index {snpsDefTechLib} -in [gi::getWindows 2]
+[14:08:58.78] /i gi::setCurrentIndex {libs} -index {verilogaLib} -in [gi::getWindows 2]
+[14:08:58.79] /i gi::setItemSelection {libs} -index {verilogaLib} -in [gi::getWindows 2]
+[14:08:59.18] /i gi::setCurrentIndex {libs} -index {snpsDefTechLib} -in [gi::getWindows 2]
+[14:08:59.18] /i gi::setItemSelection {libs} -index {snpsDefTechLib} -in [gi::getWindows 2]
+[14:08:59.41] /i gi::setCurrentIndex {libs} -index {parasitics} -in [gi::getWindows 2]
+[14:08:59.41] /i gi::setItemSelection {libs} -index {parasitics} -in [gi::getWindows 2]
+[14:08:59.66] /i gi::setCurrentIndex {libs} -index {analogLib} -in [gi::getWindows 2]
+[14:08:59.66] /i gi::setItemSelection {libs} -index {analogLib} -in [gi::getWindows 2]
+[14:09:00.79] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[14:09:01.10] /i db::setAttr geometry -of [gi::getFrames 1] -value 1356x632+5+59
+[14:09:02.88] /i db::setAttr maximized -of [gi::getFrames 1] -value false
+[14:09:03.20] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+162+59
+[14:09:04.35] /i exit
+[14:09:04.45] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[14:09:04.71] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]] -value 419x181+463+329
+[14:09:05.81] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[14:09:06.00] /o Shutdown time: Wed Jun 19 14:09:06 2024
+[14:09:06.00] /o Elapsed session real time: 0.28 minutes
+[14:09:06.00] /o Session terminated. Log is at /home/userdata/k63D/toind_63d/work/synopsys/CustomCompiler_O-2018.09/CustomCompiler_Overview_Lab1/vco/synopsys_custom/logs/ccompiler.toind_63d.2024_6_19_140846_7952.log
